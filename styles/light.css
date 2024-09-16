@@ -26,15 +26,13 @@
   --header-cover: url(../images/cover-image-light.png);
 }
 
-.page.theme_light .header__decorative-element {
-  display: none;
-}
+
 
 @media (prefers-color-scheme: light) {
 :root {
       /* Дублируем переменные светлой темы */
       --main-color: #FFF1F7;
-      --accent-color: #FF8DCB;
+      --accent-color: #FF0070;
       --main-title-color: #FFC2E6;
       --main-font-color: #353430;
       --main-font: 'IBM Plex mono';
@@ -48,12 +46,11 @@
       --accent-font-weight: 700;
       --container-padding: min(2.67vi, 20px);
       --header-cover: url(../images/cover-image-light.png);
-    }
-  
-    .header__decorative-element {
-      display: none;
-    }
-  
+    } 
   }
 
 /* Остальные стили */
+
+.page.theme_light .header__decorative-element {
+  display: none;
+}

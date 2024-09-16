@@ -25,7 +25,3 @@
   --container-padding: min(2.67vi, 20px);
   --header-cover: url(../images/cover-image-dark.png);
 }
-
-.page.theme_dark .header__decorative-element {
-  display: block;
-}
