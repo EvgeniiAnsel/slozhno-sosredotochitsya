@@ -23,6 +23,7 @@
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   font-family: var(--main-font);
   background-color: var(--main-color);
+  background-attachment: fixed;
 }
 
 .header {
@@ -237,7 +238,7 @@
   flex-direction: column;
   position: relative;
   justify-content: center;
-  min-block-size: 668px; 
+  min-block-size: 668px;
   block-size: 100vb;
 }
 
