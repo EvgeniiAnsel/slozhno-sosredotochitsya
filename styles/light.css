@@ -29,25 +29,25 @@
 
 
 @media (prefers-color-scheme: light) {
-:root {
-      /* Дублируем переменные светлой темы */
-      --main-color: #FFF1F7;
-      --accent-color: #FF0070;
-      --main-title-color: #FFC2E6;
-      --main-font-color: #353430;
-      --main-font: 'IBM Plex mono';
-      --main-font-size: 18px;
-      --main-font-weight: 400;
-      --title-color: #353430;
-      --accent-title-color: #353430;
-      --outline-color: #353430;
-      --theme-button-color: #353430;
-      --hover-color: rgba(50, 49, 45, 0.4);
-      --accent-font-weight: 700;
-      --container-padding: min(2.67vi, 20px);
-      --header-cover: url(../images/cover-image-light.png);
-    } 
+  :root {
+    /* Дублируем переменные светлой темы */
+    --main-color: #FFF1F7;
+    --accent-color: #FF0070;
+    --main-title-color: #FFC2E6;
+    --main-font-color: #353430;
+    --main-font: 'IBM Plex mono';
+    --main-font-size: 18px;
+    --main-font-weight: 400;
+    --title-color: #353430;
+    --accent-title-color: #353430;
+    --outline-color: #353430;
+    --theme-button-color: #353430;
+    --hover-color: rgba(50, 49, 45, 0.4);
+    --accent-font-weight: 700;
+    --container-padding: min(2.67vi, 20px);
+    --header-cover: url(../images/cover-image-light.png);
   }
+}
 
 /* Остальные стили */
 
