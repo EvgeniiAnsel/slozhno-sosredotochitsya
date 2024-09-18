@@ -165,7 +165,7 @@
 
 .card-box__title {
   color: #000028;
-  font-family: "IBM Plex Mono";
+  font-family: 'IBM Plex mono', sans-serif;
   font-size: 18px;
   font-style: normal;
   line-height: 23.4px; /* 130% */
@@ -212,33 +212,32 @@
   column-gap: 19px;
 }
 
-.image-box .image-box__item.sunset {
-  grid-column: 1/3;
+.image-box__item_sunset {
+  grid-column: 1 / 3;
 }
 
-.image-box .image-box__item.books {
+.image-box__item_books {
   object-fit: cover;
 }
 
-.image-box .image-box__item.ice-cream {
+.image-box__item_ice-cream {
   grid-column: 3;
-  grid-row: 1/3;
+  grid-row: 1 / 3;
 }
 
-.image-box .image-box__item.tape {
+.image-box__item_tape {
   grid-column: 1;
-  grid-row: 2/4;
+  grid-row: 2 / 4;
 }
 
-.image-box .image-box__item.street {
+.image-box__item_street {
   grid-column: 2 / 4;
 }
 
 .image-box__item img {
   object-fit: cover;
-  inline-size: 100%;
-  block-size: 100%;
-  
+  width: 100%;
+  height: 100%;
 }
 
 .footer {
@@ -283,17 +282,17 @@
     max-inline-size: clamp(14.75rem, -0.063rem + 30.859vw, 19.688rem);
   }
 
-  .content-box.box-1 {
+  .content-box.why {
     grid-template-columns: 1fr 2.06fr;
   }
 
-  .content-box.box-2 .card-box {
+  .content-box.concentration .card-box {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
   }
 
-  .content-box.box-3 {
+  .content-box.how {
     grid-template-columns: 1fr 2.06fr;
   }
 
@@ -322,11 +321,11 @@
     max-inline-size: clamp(14.75rem, -0.063rem + 30.859vw, 19.688rem);
   }
 
-  .content-box.content-box.box-1 {
+  .content-box.content-box.content-box.why {
     grid-template-columns: 1fr 2fr;
   }
 
-  .content-box.content-box.box-3 {
+  .content-box.content-box.how {
     align-items: flex-start;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: repeat(2, auto);
@@ -334,7 +333,7 @@
     column-gap: 20px;
   }
 
-  .content-box.box-4 {
+  .content-box.pictures {
     gap: 20px;
   }
   
@@ -349,14 +348,10 @@
   }
 
   .header__theme-menu-list {
-    /*flex-direction: column;
-    justify-content: center;
-    text-align: initial;*/
     margin-top: 66px;
   }
   
   .header__title {
-    margin-inline-start: -0.3px;
     margin-top: 12.7%;
   }
 
@@ -365,10 +360,8 @@
   }
 
   .image-box {
-    margin-top: -3%;
+    display: block;
     gap: 10px;
-    display: flex;
-    flex-direction: column;
   }
 
   .content-box:not(:last-child) {
@@ -376,6 +369,6 @@
   }
 
   .footer {
-    margin-top: -5%;
+    margin-top: 13%;
   }
 }
